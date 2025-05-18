@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -17,7 +17,7 @@ function App() {
     });
   }, [])
 
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: (

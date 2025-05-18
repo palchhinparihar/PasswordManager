@@ -39,7 +39,7 @@ const About = () => {
             <div className="flex justify-center">
               <button className="connection bg-blue-100 rounded-full px-4 py-1 hover:bg-blue-300 font-semibold hover:font-bold ring-slate-500 ring-1">
                 <a className="flex items-center gap-2" href="mailto:palchhinparihar@gmail.com">
-                  <img width={ 30 } src="/icons/mail.png" alt="Gmail" />
+                  <i class="fa-solid fa-envelope text-lg"></i>
                   <span>Email</span>
                 </a>
               </button>

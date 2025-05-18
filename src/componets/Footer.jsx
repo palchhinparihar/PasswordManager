@@ -9,7 +9,11 @@ const Footer = () => {
           <span className="font-bold text-xl text-blue-500">M/&gt;</span>
       </div>
       <div>
-        <div className="flex">Create with <img width={ 23 } className="mx-1" src="/icons/heart.png" alt="Heart" /> by Palchhin</div>
+        <div className="flex">
+          <span>Create with</span>
+          <i class="fa-solid fa-heart mx-2 mt-[5px]" style={{color: "red"}}></i>
+          <span>by Palchhin</span>  
+        </div>
       </div>
     </footer>
   )
