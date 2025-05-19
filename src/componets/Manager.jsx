@@ -3,6 +3,7 @@ import { useRef, useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { v4 as uuidv4 } from 'uuid';
+
 const Manager = () => {
   const ref = useRef();
   const passwordRef = useRef();
@@ -143,7 +144,7 @@ const Manager = () => {
             {passwordArray.length === 0 && (
               <div className="font-semibold md:text-[17px] text-sm bg-gray-200 md:py-3 px-3 py-1 flex items-center gap-1">
                 <span className="pt-[1px]">No passwords to show! Add passwords.</span>
-                <img className="w-7" src="/icons/password.png" alt="Password" />
+                <i class="fa-solid fa-shield ml-1 mt-[1.5px]"></i>
               </div>
             )}
 
