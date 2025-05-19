@@ -111,7 +111,7 @@ const Manager = () => {
           <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-3/4 w-3/4 rounded-full bg-blue-300 opacity-20 blur-[100px]"></div>
         </div>
 
-        <div className="container mx-auto px-5 pb-3">
+        <div className="container w-[80%] mx-auto flex flex-col justify-center px-5 pb-3">
           <div data-aos="fade-down" className="md:pt-10 pt-5 pb-5">
               <h1 className="font-bold text-3xl text-center mb-[2px]">
               <span className="text-blue-700">&lt;</span>
